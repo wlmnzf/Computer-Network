@@ -1,0 +1,11 @@
+实验3：HTML & JavaScript 编程练习
+
+1、完成“Html实验手册”内的所有实验示例；
+2、完成“Html实验手册”后的作业要求。
+
+实验4：搭建Web服务器（含HTTPS功能）
+
+1、用Apache + windows + MySql 搭建http web服务器，能正常访问；
+2、引入Openssl模块，将http服务器改造为https服务器，能访问；
+并回答如下问题：
+a）为什么https服务器访问时会出现证书错误？

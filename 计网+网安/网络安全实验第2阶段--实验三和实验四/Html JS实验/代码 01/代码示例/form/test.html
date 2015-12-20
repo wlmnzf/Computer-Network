@@ -1,0 +1,96 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--checkbox.html
+	An example to illustrate a checkbox -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>checkbox</title>
+</head>
+
+<body>
+<p>
+  Grocery Checklist
+</p>
+
+<form action="">
+  <p>
+		<input type="text" name="Name" size=25 />
+  </p>
+</form>
+
+<p> Age category</p>
+<form action="">
+  <p>
+
+    <label><input type="radio" name="age" value="under20" checked="checked" /> 0-19</label>
+    <label><input type="radio" name="age" value="20-35" /> 20-35 </label>
+	<label><input type="radio" name="age" value="36-50" /> 36-50 </label>
+	<label><input type="radio" name="age" value="over50" /> over 50 </label>
+  </p>
+
+</form>
+
+<br /><br />
+<p>password</p>
+
+<form action="">
+  <p>
+    <input type="password" name="mypassword" size="10" maxlength="10" />
+  </p>
+ </form>
+ <br /><br /><br /><br />
+
+ 
+ <p>Grocery Menu - milk, bread ,egg ,cheese</p>
+ <form action="">
+   <p>
+     With size = 1 (the default)
+	 <select name="groceries">
+	   <option>milk</option>
+	   <option>bread</option>
+	   <option>eggs</option>
+
+	   <option>cheese</option>
+	 </select>
+   </p>
+ </form> 
+ <br /><br />
+ 
+ <form action="">
+   <p>
+     With size = 1 (the default)
+	 <select name="groceries" multiple="multiple" size="2">
+
+	   <option>milk</option>
+	   <option>bread</option>
+	   <option>eggs</option>
+	   <option>cheese</option>
+	 </select>
+   </p>
+ </form> 
+ 
+ <p>Please provide your employment aspirations</p>
+
+ <form  action="handler">
+   <p>
+     <textarea name="aspirations" rows="3" cols="40" >
+	 (Be brief and concise)
+	 </textarea>
+   </p>
+ </form>
+ 
+ <br /><br /><br />
+ <form action="">
+   <p>
+
+     <input type="submit" value="submit form" />
+	 <input type="reset" value="reset form" />
+	 
+   </p>
+ </form>
+ 
+</body>
+</html>

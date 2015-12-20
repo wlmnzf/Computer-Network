@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- roots.html 
+	 A Document for radio_click.js -->
+	 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> Dynamic Values </title>
+  <script type = "text/javascript" src = "dynValue.js">
+  	</script>
+</head>
+
+<body>
+	<form action = "">
+		<p style = "font-weight: bold">
+			<span style = "font-style: italic">
+				Customer information
+			</span>
+			<br /><br />
+			<label>
+				Name:
+				 <input type = "text" onmouseover = "message(0)" onmouseout = "message(4)" />
+			</label>
+			<br />
+			<label>
+				Email:
+				 <input type = "text" onmouseover = "message(1)" onmouseout = "message(4)" />
+			</label>
+			<br /><br />
+			<span style = "font-style: italic">
+				To create an account, provide the following:
+			</span>
+			<br /><br />
+			<label>
+				User ID:
+				 <input type = "text" onmouseover = "message(2)" onmouseout = "message(4)" />
+			</label>
+			<br />
+			<label>
+				Password:
+				 <input type = "text" onmouseover = "message(3)" onmouseout = "message(4)" />
+			</label>				
+			<br /><br />
+			<input type = "submit" value = "Submit" />
+			<input type = "reset" value = "Reset" />
+			<br /><br />
+			<textarea id = "adviceBox" rows = "3" cols = "50">
+				This box provides advice on filling out the form
+				on this page. Put the mouse cursor over any input
+				field to get advice.
+			</textarea>
+		</P>
+	</form>
+</body>
+</html>
